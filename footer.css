@@ -1,0 +1,47 @@
+.socialmedia{
+    margin: 0 auto;
+    margin-top: 120px;
+    padding-left: 35px;
+}
+
+#github:hover, #linkedin:hover, #twitter:hover{
+    color: grey;
+}
+#github, #linkedin, #twitter{
+    color: black;
+}
+.contact-text{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 18px;
+}
+.contact{
+    margin: 0 auto;
+    margin-top: 120px;
+    padding-left: 35px;
+}
+footer{
+    padding-bottom: 100px;
+}
+.filler{
+    width: 100%;
+    background-color: #222222;
+    padding-bottom: 200px;
+    margin: 100px 0 -220px 0;
+}
+@media (max-width: 462px){
+   .contact-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 16px;
+} 
+    .contact{
+    margin: 0 auto;
+    margin-top: 120px;
+    padding-left: 25px;
+}
+}

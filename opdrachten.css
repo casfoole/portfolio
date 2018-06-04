@@ -1,0 +1,240 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+.row{
+    max-width: 960px;
+}
+
+/*NAVIGATIE*/
+header{
+    width: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+}
+.navigatie-row{
+    padding: 0.5em 0 0.5em 0;
+}
+.navigatie-row a {
+    text-decoration: none;
+    color: #333333;
+    padding: 0 1em 0 1em;
+}
+#over-mij, #opdrachten, #vaardigheden, #contact{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 15px;
+}
+#over-mij:hover, #opdrachten:hover, #vaardigheden:hover, #contact:hover{
+    color: grey;
+}
+.hr{
+    height: 1px;
+    background-color: darkgrey;
+    width: 100%;
+}
+
+/*OPDRACHTEN*/
+.container{
+    margin: 10px 0 0 0;
+}
+.opdrachten{
+    width: 20.03%;
+    height: 100px;
+    display: inline-block;
+    margin: 0 -2px -3.9px -2px;
+    cursor: pointer;
+}
+.opdracht-uitgevouwen{
+    width: 100%;
+    height: 500px;
+}
+#opdracht-1, #opdracht-1-uitgevouwen{
+    background-color: #E85D75;
+    margin-top: -19px;
+    overflow: hidden;
+}
+#opdracht-2, #opdracht-2-uitgevouwen{
+    background-color: #FFA69E;
+    margin-top: -19px;
+    overflow: hidden;
+}
+#opdracht-3, #opdracht-3-uitgevouwen{
+    background-color: #EEE2DF;
+    margin-top: -19px;
+    overflow: hidden;
+}
+#opdracht-4, #opdracht-4-uitgevouwen{
+    background-color: #4C86A8;
+    margin-top: -19px;
+    overflow: hidden;
+}
+#opdracht-5, #opdracht-5-uitgevouwen{
+    background-color: #FFC942;
+    margin-top: -19px;
+    overflow: hidden;
+}
+.opdracht-inhoud{
+    margin: 0 auto;
+    padding-left: 35px;
+}
+.opdracht-link{
+    text-decoration: none;
+    color: #40648E;
+}
+.opdracht-link:hover{
+   color: #29405B;
+}
+.titel-opdracht{
+    padding-top: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 18px;
+}
+.uitleg-opdracht{
+    margin-top: -15px;
+    padding-right: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 15px;
+}
+.contributie-uitleg{
+    margin-top: -15px;
+    padding-right: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 15px;
+
+}
+.contributie-opdracht{
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 18px;
+}
+.opdrachten_titles{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    padding: 5px 0 0 20px;
+    margin-top: -1px;
+}
+.image_reel{
+    margin: -100px 0 0 500px;
+}
+.krant{
+    margin: -300px 0 0 770px;
+}
+.rekenmachine{
+    margin: -200px 0 0 700px;
+}
+@media (max-width: 1509px) {
+    
+    .opdrachten_titles{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        padding: 5px 0 0 20px;
+        margin-top: -1px;
+}
+}
+@media (max-width: 1150px) {
+    .opdrachten_titles {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        padding: 5px 0 0 20px;
+        margin-top: -1px;
+    }
+}
+    @media (max-width: 960px) {
+        .opdrachten_titles {
+            font-family: 'Oswald', sans-serif;
+            font-size: 22px;
+            padding: 5px 0 0 10px;
+            margin-top: -1px;
+        }
+
+        .uitleg-opdracht {
+            margin-top: -15px;
+            padding-right: 50px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-feature-settings: "zero", "onum", "calt";
+            line-height: 1.5;
+            font-kerning: normal;
+            font-size: 15px;
+        }
+
+        .contributie-uitleg {
+            margin-top: -15px;
+            padding-right: 50px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-feature-settings: "zero", "onum", "calt";
+            line-height: 1.5;
+            font-kerning: normal;
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 770px) {
+        .uitleg-opdracht {
+            margin-top: -15px;
+            padding-right: 50px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-feature-settings: "zero", "onum", "calt";
+            line-height: 1.5;
+            font-kerning: normal;
+            font-size: 15px;
+        }
+
+        .contributie-uitleg {
+            margin-top: -15px;
+            padding-right: 50px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-feature-settings: "zero", "onum", "calt";
+            line-height: 1.5;
+            font-kerning: normal;
+            font-size: 15px;
+
+        }
+    }
+    @media (max-width: 760px) {
+        .opdrachten_titles {
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            padding: 5px 0 0 10px;
+            margin-top: -1px;
+        }
+    }
+    @media (max-width: 554px) {
+        .opdrachten_titles {
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            padding: 5px 0 0 10px;
+            margin-top: -1px;
+        }
+    }
+    @media (max-width: 551px) {
+        #opdracht-1-uitgevouwen, #opdracht-5-uitgevouwen {
+            width: 100%;
+            height: 600px;
+        }
+    }
+    @media (max-width: 460px) {
+        .opdrachten_titles {
+            font-family: 'Oswald', sans-serif;
+            font-size: 12px;
+            padding: 5px 0 0 10px;
+            margin-top: -1px;
+        }
+    }
+
+

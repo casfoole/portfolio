@@ -1,0 +1,80 @@
+/*skill*/
+.skill{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 35px;
+}
+.skill-title{
+    margin: 120px 47px 48px;
+}
+.skill-height{
+    height: 6px;
+}
+.skill-information{
+    font-size: 18px;
+    max-width: 500px;
+}
+.skill-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 15px;
+    padding-right: 35px;
+}
+.skill-textv2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 15px;
+}
+.show-more{
+    cursor: pointer;
+    margin: 30px 0 0;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+}
+.show-more:hover{
+    color: grey;
+}
+/*skill colors*/
+.color-grey{
+    width: 80%;
+    background-color: #EEE8EF;
+}
+/*php*/
+.color-blue{
+    width: 40%;
+    background-color: #64B6AC;
+}
+/*javascript*/
+.color-red{
+    width: 20%;
+    background-color: #FF634D;
+}
+/*html-css*/
+.color-yellow{
+    width: 65%;
+    background-color: #e5a228;
+}
+/*wordpress*/
+.color-purple{
+    width: 25%;
+    background-color: #820263;
+}
+/*mysql*/
+.color-beige{
+    width: 20%;
+    background-color: #E8E8B4;
+}
+.color-bluev2{
+    width: 50%;
+    background-color: #6C91BF;
+}
+.blankspace{
+    height: 50px;
+}

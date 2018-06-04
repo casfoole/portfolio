@@ -1,0 +1,50 @@
+.over-mij{
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-top: 100px;
+}
+.image-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 24px;
+}
+#tag-line{
+    margin-top: -22px;
+    padding-right: 160px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    line-height: 1.5;
+    font-kerning: normal;
+    font-size: 13px;
+}
+.biografie{
+    /*margin: -50px 0 60px 250px;*/
+    margin: 20px 0 60px 250px;
+    padding-right: 160px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    font-size: 16px;
+}
+@media (max-width: 884px) {
+    .biografie{
+    margin: -50px 0 60px 250px;
+    padding-right: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    font-size: 16px;
+}
+}
+@media (max-width: 605px){
+    .biografie{
+    margin: 0 0 0 0;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-feature-settings: "zero","onum","calt";
+    font-size: 16px;
+}
+}
+
